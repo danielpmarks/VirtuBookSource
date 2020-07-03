@@ -31,8 +31,12 @@ public class HarmonicMotion : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        setSpringK();
+        setMass();
+        setDampening();
         springConst = spring;
         freq = (float) Math.Sqrt(spring / cube.GetComponent<Rigidbody>().mass);
+
         startTime = Time.time;
         cubeTransform = cube.transform;
         amplitude = 0;

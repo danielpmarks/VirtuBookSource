@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Pendulum" size="50.000000 40.444443" />
     <ImageTarget name="HarmOscillator" size="50.000000 31.428572" />
-    <ImageTarget name="Oscillator" size="50.000000 68.139771" />
     <ImageTarget name="ballerina" size="10.000000 6.075000" />
     <ImageTarget name="Solar-System" size="50.000000 29.144737" />
     <ImageTarget name="Chemistry_Page" size="5.000000 6.666667" />
-    <ImageTarget name="Oscillator_Page" size="5.000000 6.428571" />
   </Tracking>
 </QCARConfig>
